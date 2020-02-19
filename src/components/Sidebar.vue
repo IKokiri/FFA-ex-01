@@ -1,32 +1,23 @@
 <template>
-  <div class="hello">
-    Sidebar
-  </div>
+ <ul>
+    <li v-for="item in items" v-bind:key="item">
+      <a href="#">{{item}}</a>
+    </li>
+  </ul>
 </template>
 
 <script>
 export default {
   name: 'Sidebar',
-  props: {
-    msg: String
+  data() {
+    return {
+      items: ["Section 1","Section 2","Section 3","Section 4","Section 5","Section 6"]
+    };
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>
