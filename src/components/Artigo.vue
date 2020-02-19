@@ -13,7 +13,9 @@ export default {
   name: 'Artigo',
   data() {
     return {
-      items: [" sadasd asd asd sda Artigo 1","kljljl j ljk l jl jl kjljl Artigo 2"," poi pou opiu pou opu op upArtigo 3"]
+      items: ["sadasd asd asd sda asdasd asd asd asd asd asd asd sad sad sasadasd asd asd sda asdasd asd asd asd asd asd asd sad sad sasadasd asd asd sda asdasd asd asd asd asd asd asd sad sad sa Artigo 1",
+              "kljljl j ljk l jl jl kjlj asd asd asd asd asd asd asd asd al Artigokljljl j ljk l jl jl kjlj asd asd asd asd asd asd asd asd al Artigokljljl j ljk l jl jl kjlj asd asd asd asd asd  Artigo 2",
+              "asd asd asd asd asd asd asd asd as dsapoi pou op pou opu op upArtigoasd asd asd asd asd asd asd asd as dsapoi pou op pou opu op upArtigoasd asd asd asd asd asd asd asd as dsapoi pupArtigo 3"]
     };
   }
 }
@@ -25,10 +27,6 @@ export default {
  p {
         width: 20%;
         display: inline-block;
-        background-color: red;
-        font-size: 3vw;
-        text-align: center;
-        padding: 5vw 0vw 5vw 0vw;
-        min-width:40vw;
+       
     }
 </style>
