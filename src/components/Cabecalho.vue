@@ -1,5 +1,6 @@
 <template>
   <div class="bg">
+    <Topic/>
     <Logo/>
     <Busca/>
     <Nav/>
@@ -11,13 +12,15 @@
 import Logo from './Logo.vue'
 import Busca from './Busca.vue'
 import Nav from './Nav.vue'
+import Topic from './Topic.vue'
 
 export default {
   name: 'Cabecalho',
   components: {
     Logo,
     Busca,
-    Nav
+    Nav,
+    Topic
   }
 }
 </script>

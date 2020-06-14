@@ -1,13 +1,14 @@
 <template>
   <div id="app">
-    
-    <Logo/>
-    <Cabecalho nav/>    
-    <Busca/>
-    <Nav/>
-    <Artigo/>
-    <Sidebar/>
-    
+      <Logo/>
+      <Cabecalho nav/>
+
+    <div id="artigos">
+      <Artigo/>
+    </div>
+    <div id="sidebar">
+      <Sidebar/>    
+    </div>
   </div>
 </template>
 
@@ -33,5 +34,16 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+#artigos{
+float: left;
+border:salmon 1px solid;
+
+
+}
+#sidebar{
+  width:2px;
+  float: left;
+
 }
 </style>

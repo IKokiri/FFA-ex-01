@@ -1,8 +1,8 @@
 <template>
  <ul>
-    <li v-for="item in items" v-bind:key="item">
+    <h4 v-for="item in items" v-bind:key="item">
       <a href="#">{{item}}</a>
-    </li>
+    </h4>
   </ul>
 </template>
 

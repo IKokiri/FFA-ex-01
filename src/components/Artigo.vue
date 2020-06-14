@@ -1,6 +1,7 @@
 <template>
   <div class="artigo">
     <p  v-for="item in items" v-bind:key="item">
+      <Imagem/>
       {{item}}
     </p>
 
@@ -9,8 +10,12 @@
 </template>
 
 <script>
+import Imagem from './Imagem.vue'
 export default {
   name: 'Artigo',
+  components: {
+    Imagem
+  },
   data() {
     return {
       items: ["sadasd asd asd sda asdasd asd asd asd asd asd asd sad sad sasadasd asd asd sda asdasd asd asd asd asd asd asd sad sad sasadasd asd asd sda asdasd asd asd asd asd asd asd sad sad sa Artigo 1",
@@ -23,7 +28,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
  p {
         width: 20%;
         display: inline-block;

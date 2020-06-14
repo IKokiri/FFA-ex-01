@@ -13,7 +13,7 @@ export default {
   },
   data() {
     return {
-      items: ["Nav 1","Nav 2","Nav 3"]
+      items: ["Nav 1","Nav 2","Nav 3","Nav 4"]
     };
   }
 };
